@@ -13,8 +13,11 @@ main {
 }
 h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .25rem; letter-spacing: -0.01em; }
 .sub { color: #555; font-style: italic; margin: 0 0 2rem; }
-h3 { font-size: 1.1rem; margin: 2rem 0 .35rem; }
+h2 { font-size: .85rem; text-transform: uppercase; letter-spacing: .08em; color: #999; font-weight: 600; margin: 2.75rem 0 .25rem; border-top: 1px solid #e5e5e5; padding-top: 1.75rem; }
+h2 .note { text-transform: none; letter-spacing: 0; font-weight: 400; color: #aaa; }
+h3 { font-size: 1.1rem; margin: 1.75rem 0 .15rem; }
 h3 .alt { color: #777; font-weight: 400; font-style: italic; }
+.meta { color: #777; font-size: .9rem; margin: .1rem 0 0; }
 p { margin: .35rem 0 0; }
 a { color: #111; text-decoration: underline; text-underline-offset: 2px; }
 a:hover { background: #111; color: #fff; text-decoration: none; }
